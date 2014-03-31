@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvxHeaderNeeded.Droid", "MvxHeaderNeeded\MvxHeaderNeeded.Droid.csproj", "{9B5F1869-56DE-4AC5-BA64-0C37DBF7DCE5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvxHeaderNeeded.Droid", "MvxHeaderNeeded.Droid\MvxHeaderNeeded.Droid.csproj", "{9B5F1869-56DE-4AC5-BA64-0C37DBF7DCE5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvxHeaderNeeded.Core", "MvxHeaderNeeded.Core\MvxHeaderNeeded.Core.csproj", "{0B14574D-E052-4911-9D48-9527375CCA54}"
 EndProject
