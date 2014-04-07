@@ -24,3 +24,17 @@ proguard/
 
 # Visual Studio files
 .suo
+
+.obj
+.user
+.exe
+.pdb
+.log
+.suo
+.vs10x
+[Bb]in
+[Dd]ebug*/
+obj/
+[Rr]elease*/
+_ReSharper*/
+.userprefs
