@@ -5,6 +5,9 @@ namespace MvxHeaderNeeded.Core.ViewModels
 {
     public class FirstViewModel : MvxViewModel
     {
+
+        #region INPCs for Header
+
         private string _userAvatar;
         public string UserAvatar
         {
@@ -26,6 +29,9 @@ namespace MvxHeaderNeeded.Core.ViewModels
             }
             set { _summ = value; RaisePropertyChanged(() => Summ); }
         }
+
+
+        #endregion
 
         private List<SimpleItem> _myAccounts;
         public List<SimpleItem> MyAccounts

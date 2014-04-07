@@ -4,11 +4,14 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+<!-- Attention! 
+       Means, that this header will be header of our ListView for scrolling with items -->
     <include
         layout="@layout/list_header"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <MvxListView
+        android:id="@android:id/list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         local:MvxBind="ItemsSource MyAccounts"

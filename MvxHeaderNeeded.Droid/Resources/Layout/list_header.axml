@@ -9,8 +9,17 @@
         android:layout_height="100dp"
         android:scaleType="centerCrop"
         local:MvxBind="ImageUrl UserAvatar" />
-    <TextView
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        local:MvxBind="Text Summ" />
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your accounts summ is: " />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            local:MvxBind="Text Summ" />
+    </LinearLayout>
 </LinearLayout>
